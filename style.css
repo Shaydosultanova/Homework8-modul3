@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+
+body{
+    width: 100wv;
+    height: 100vh;
+}
+
+header{
+    background-image: url(1.svg);
+    width: 1420px;
+    height: 875px;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.referrers{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1420px;
+    height: 105px;
+    padding: 28px 0px 28px;
+    gap: 246px;
+}
+
+div>nav>ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    list-style: none;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+.asosiy{
+    display: flex;
+    gap: 24px;
+    margin-right: 720px;
+}
+
+h1{
+    color: rgba(255, 255, 255, 1);
+    font-size: 96px;
+    width: 679px;
+    padding-bottom: 48px;
+}
+
+p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+}
+
+.cento{
+    width: 645px;
+}
+
+button{
+    background-color: rgb(247, 243, 241);
+    width: 180px;
+    height: 52px;
+    border-radius: 10px;
+    color: rgb(17, 17, 17);
+    margin-top: 40px;
+}
+
+button:hover{
+    background-color: rgba(245, 117, 32, 1);
+    transition: .3s;
+    color: white;
+    
+}
+
+.katalog{
+    font-size: 64px;
+    color: rgba(16, 16, 16, 1);
+    padding-left: 619px;
+    text-align: center;
+    padding-top: 109px;
+}
+main{
+    background-color: rgb(92, 89, 89);
+    width: 1420px;
+}
+
+.imgtext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    width: 1280px;
+    height: 300px;
+    background-color: black;
+    color: white;
+    position: relative;
+    margin-left: 80px;
+    border-radius: 10px;
+}
+
+.imgtext:hover{
+   background-color: rgba(245, 117, 32, 1); 
+   transition: .3s;
+}
+
+
+.velosipedd{
+    font-size: 40px;
+    margin-left: -480px;
+}
+
+.velosiped{
+    position: absolute;
+    transform: translate(210px);
+    width: 875px;
+}
+
+.tradein{
+    width: 400px;
+    height: 458px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    margin-right: 16px;
+    margin-left: 20px;
+}
+
+.tradein:hover{
+    background-color: rgba(245, 117, 32, 1);
+    transition: .3s;
+}
+
+.trade{
+    text-align: center;
+    font-size: 40px;
+    padding-right: 218px;
+    padding-top: 80px;
+}
+
+.img{
+    position: absolute;
+    transform: translateY(40px);
+}
+
+.zapchast{
+    width: 400px;
+    height: 216px;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.zapchast:hover{
+    background-color: rgba(245, 117, 32, 1);
+    transition: .3s;
+}
+
+.vel{
+    margin-right: 20px;
+}
+
+.text{
+    padding: 26px 0px 0px 29px;
+    font-size: 40px;
+}
+
+.img1{
+    position: absolute;
+    transform: translate(270px,-84px);
+}
+
+.velostanki{
+    width: 400px;
+    height: 216px;
+    background-color: black;
+    border-radius: 10px;
+    position: relative; 
+}
+
+.velostanki:hover{
+    background-color: rgba(245, 117, 32, 1);
+    transition: .3s;
+}
+
+.img2{
+    position: absolute;
+    transform: translate(200px,-42px);
+}
+
+.ekipirovka{
+    width: 448px;
+    height: 216px;
+    background-color: black;
+    border-radius: 10px;
+    position: relative; 
+    margin-bottom: 25px;
+}
+
+.ekipirovka:hover{
+    background-color: rgba(245, 117, 32, 1);
+    transition: .3s;
+}
+
+
+.img3{
+    position: absolute;
+    transform: translate(220px,15px);
+}
+
+.velostankii{
+    width: 448px;
+    height: 216px;
+    background-color: black;
+    border-radius: 10px;
+    position: relative; 
+}
+
+.velostankii:hover{
+    background-color: rgba(245, 117, 32, 1);
+    transition: .3s;
+}
+
+.img4{
+    position: absolute;
+    transform: translate(275px,-80px);
+}
+
+.cards{
+    display: flex;
+    justify-content:center;
+    margin-top: 16px;
+    margin-bottom: 157px;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    width: 1173px;
+    margin-left: 100px;
+    margin-bottom: 120px;
+}
+
+
+.box{
+    height: 462px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.box:hover{
+    background-color: rgba(245, 117, 32, 1);
+    transition: .3s;
+    color: black;
+}
+
+.box:nth-child(1){
+    height: 462px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.box:nth-child(1):hover{
+    background-color: rgba(245, 117, 32, 1);
+    transition: .3s;
+    color: black;
+}
+
+.box:nth-child(2){
+    height: 462px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;  
+}
+
+.box:nth-child(2):hover{
+    background-color: rgba(245, 117, 32, 1);
+    transition: .3s;
+    color: black;
+}
+
+.box:nth-child(3){
+    height: 462px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.box:nth-child(3):hover{
+    background-color: rgba(245, 117, 32, 1);
+    transition: .3s;
+    color: black;
+}
+
+.box:nth-child(4){
+    height: 462px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.box:nth-child(4):hover{
+    background-color: rgba(245, 117, 32, 1);
+    transition: .3s;
+    color: black;
+}
+
+.box:nth-child(5){
+    height: 462px;
+}
+
+
+.trassa{
+    color: black;
+    text-align: center;
+    padding-left: 600px;
+}
+
+.date{
+    padding: 24px 0px 50px 27px;
+}
+
+
+.tekst{
+    padding-left: 27px;
+}
+
+.svyaz{
+    font-size: 40px;
+    text-align: center;
+    padding-left: 40px;
+    padding-top: 52px;
+}
+
+.labels{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imginput{
+    background-color:  rgba(245, 117, 32, 1);
+    height: 636px;
+}
+
+.inputss{
+    padding-left: 100px;
+}
+
+.rasm{
+    width: 700px;
+    height: 636px;
+    margin-top: -209px;
+}
+
+.zadat{
+    background-color: white;
+    width: 608px;
+    height: 52px;
+    color: rgba(245, 117, 32, 1);
+    border: 1px solid white;
+}
+
+.zadat:hover{
+    background-color:  rgba(245, 117, 32, 1);
+    transition: .3s; 
+    color: white;
+}
+
+.soobsheniya{
+    width: 608px;
+    height: 154px;
+    border-radius: 10px;
+    margin-bottom: -24px;
+}
+
+input{
+    width: 302px;
+    height: 46px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-bottom: 16px;
+}
+
+
+footer{
+    width: 1420px;
+    height: 300px;
+    background-color: black;
+}
+
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 91px;
+}
+
+.referrers1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 91px;
+}
+
+.kontakt{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.refer{
+    font-size: 24px;
+    padding-bottom: 32px;
+    font-weight: 700;
+}
+
+.referr{
+    font-size: 16px;
+    font-weight: 400;
+}
